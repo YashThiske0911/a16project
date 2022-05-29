@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+{% endblock head %}
+{% block css %}
+<!-- body{
+    background: #fec107;
+    padding: 0 20 px;
+    
+}
+
+h1{
+    text-align:center;
+    background-color:white;
+} -->
+nav
+{
+overflow: auto;
+}
+p{
+    text-align:left;
+    background-color:white;
+
+}
+
+
+{% endblock css %}
+{% block body %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- {{x}} -->
+
+
+
+    <h1>{{x}}</h1><br>
+    <div class="suggestion">
+        <h2>Suggestion:</h2>
+        
+        <p>{{t}}<br></p>
+            <h2>Diet</h2>
+        <p>{{u}}<br></p>
+        <h2>Lifestyle Modification</h2>
+        <p>{{v}}<br></p>
+        <h2>Prescibed Medicines</h2>
+        <p>{{w}}<br></p>
+        
+    </div>
+
+{% endblock body %}
